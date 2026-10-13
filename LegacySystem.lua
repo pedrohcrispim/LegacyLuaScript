@@ -1,6 +1,5 @@
 --============================================================
 -- LEGACY SYSTEM (Nivel 1) - Pontos por conta + NPC de gasto
--- CORRIGIDO: usa apenas intid numerico (nao depende de "popup")
 --============================================================
 
 local LEGACY_NPC = 400200
@@ -14,7 +13,7 @@ local POINT_SOURCES = {
     [779] = { key = "explore_lochmodan", points = 5 },
 }
 
--- Cada categoria agora tem um indice numerico fixo (nao usa mais nomes como popup)
+
 local LEGACY_TREE = {
     { name = "Tradeskills", unlocks = {
         { key = "prof_eff_1", name = "Eficiencia de Coleta I (5 pts)",  cost = 5,  spellId = 0 },
